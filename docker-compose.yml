@@ -35,7 +35,7 @@ services:
 
 #Definimos el servicio de la base de datos
   postgres_guzman:
-    image: postgres:15
+    image: postgres:18
     container_name: postgres_guzman
     # Permitiendo acceder a la base de datos desde el host
     ports:
